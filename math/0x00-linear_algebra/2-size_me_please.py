@@ -1,2 +1,2 @@
 def matrix_shape(matrix):
-  return matrix.shape
+    return list (np.shape(matrix))
