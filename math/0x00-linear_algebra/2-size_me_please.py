@@ -1,2 +1,5 @@
+import numpy 
 def matrix_shape(matrix):
-    return matrix.shape
+    matrix=numpy.array(matrix)
+    shape=matrix.shape
+    return shape
