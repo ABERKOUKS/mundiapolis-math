@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import numpy as np
 def cat_matrices(mat1, mat2, axis=0):
     try:
