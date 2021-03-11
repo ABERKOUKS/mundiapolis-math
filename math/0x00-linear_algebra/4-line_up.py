@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import numpy 
 def add_arrays(mat1, mat2):
     mat1=numpy.array(mat1)
