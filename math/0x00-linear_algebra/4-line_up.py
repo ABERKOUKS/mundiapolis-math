@@ -4,5 +4,4 @@ def add_arrays(mat1, mat2):
         add=[[(mat1[i]+mat2[i]) for i in range(len(mat1))]]
         return add
     else:
-        return "None"
-        
+        return "None"  
