@@ -1,5 +1,4 @@
-import numpy 
+#!/usr/bin/env python3
 def cat_arrays(arr1, arr2):
-    conc=numpy.concatenate((arr1, arr2)) 
-    return conc.tolist()
-
+    conc=arr1+arr2
+    return conc
