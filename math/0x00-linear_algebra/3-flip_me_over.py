@@ -2,5 +2,5 @@
 def matrix_transpose(matrix):
     trans = []
     for m in range(len(matrix[0])):
-        trans.append([matrix[n][m]] for n in range(len(matrix)))
+        trans.append([matrix[n][m] for n in range(len(matrix))])
     return trans
