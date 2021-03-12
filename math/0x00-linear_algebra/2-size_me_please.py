@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import numpy 
 def matrix_shape(matrix):
-    matrix=numpy.array(matrix)
-    shape=matrix.shape
-    return shape
+    if type(matrix[0]) is not list:
+        return [len(matrix)]
+    else:
+        return [len(matrix)] + matrix_shape(matrix[0])
