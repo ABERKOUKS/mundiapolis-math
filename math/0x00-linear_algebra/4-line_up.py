@@ -1,10 +1,8 @@
-#!/usr/bin/env python3
-import numpy 
+#!/usr/bin/env python3 
 def add_arrays(mat1, mat2):
-    mat1=numpy.array(mat1)
-    mat2=numpy.array(mat2)
-    if mat1.shape == mat2.shape:
-        add=np.add(mat1, mat2) 
-        return add
-    else:
+    if len(mat1) != len(mat2):
         return "None"
+    else:
+        add=[[(mat1[i]+mat2[i]) for j in range(len(mat1))]]
+        return add
+        
