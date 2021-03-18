@@ -1,4 +1,4 @@
-import numpy as np
+#!/usr/bin/env python3
 def add_matrices(mat1, mat2):
     x1=np.asarray(mat1)
     x2=np.asarray(mat2)
