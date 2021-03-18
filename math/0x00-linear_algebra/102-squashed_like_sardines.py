@@ -1,4 +1,4 @@
-import numpy as np
+#!/usr/bin/env python3
 def cat_matrices(mat1, mat2, axis=0):
     try:
         return np.concatenate((mat1, mat2), axis).tolist()
