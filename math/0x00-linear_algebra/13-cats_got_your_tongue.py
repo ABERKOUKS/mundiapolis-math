@@ -1,4 +1,4 @@
-import numpy as np
+#!/usr/bin/env python3
 def np_cat(mat1, mat2, axis=0):
     if len(mat1[0])==len(mat2[0]) and axis==0:
         conc=np.concatenate((mat1, mat2),axis=0) 
