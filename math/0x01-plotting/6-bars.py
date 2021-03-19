@@ -11,7 +11,6 @@ oranges=fruit[2,:]
 peaches=fruit[3,:]
 
 labels = ['Farrah', 'Fred', 'Felicia']
-legend = ['apples', 'bananas', 'oranges', 'peaches']
 width = 0.5       # the width of the bars
 
 color_list = ['red','yellow','#ff8000','#ffe5b4']
